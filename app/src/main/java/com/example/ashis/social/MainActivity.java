@@ -9,5 +9,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //test branch
+        //changes
+        // New changes and merged
+    }
+    public void onCreated(Bundle savedInstanceState){
+        System.out.print("Nothing to work on");
     }
 }
